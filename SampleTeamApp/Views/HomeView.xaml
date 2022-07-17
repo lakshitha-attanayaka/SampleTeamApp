@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleTeamApp.Views.HomeView"
+             Title="HomeView">
+    <VerticalStackLayout>
+        <Label 
+            Text="Home Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="User Information" <!--Command="{Binding UserInfoCommand}"-->/>
+        <Button Text="Organisation Information" <!--Command="{Binding OrgInfoCommand}"-->/>
+
+    </VerticalStackLayout>
+</ContentPage>
